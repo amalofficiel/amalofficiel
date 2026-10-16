@@ -8,6 +8,17 @@ I build web applications and explore how AI can make information easier to find 
 
 ## Selected projects
 
+### Document Atlas — Public document-search demo
+
+A public adaptation of my document assistant, using six fictional PDFs and a reproducible bilingual retrieval evaluation.
+
+- Full local pipeline: FastAPI, Qdrant, BM25, RRF and multilingual reranking.
+- Free web preview: browser-only lexical search with original source excerpts; no LLM calls.
+- Published evaluation: 24 answerable French/Arabic questions, baseline comparisons and documented limits.
+- Automated checks for retrieval metrics, document filtering and frontend builds.
+
+[Try the demo](https://amalofficiel.github.io/document-atlas/) · [Explore the code](https://github.com/amalofficiel/document-atlas) · [Read the evaluation](https://github.com/amalofficiel/document-atlas/blob/main/evaluation/REPORT.md)
+
 ### Assistant BCT — Bilingual document search
 
 A French and Arabic assistant for exploring Central Bank of Tunisia circulars and notes, with answers linked to PDF sources.
